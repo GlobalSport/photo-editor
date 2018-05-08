@@ -107,7 +107,7 @@ public final class PhotoEditorViewController: UIViewController {
     
     func configureCollectionView() {
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 30, height: 30)
+        layout.itemSize = CGSize(width: 45, height: 45)
         layout.scrollDirection = .horizontal
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0

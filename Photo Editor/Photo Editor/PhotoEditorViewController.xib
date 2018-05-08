@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -40,11 +41,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="HPk-Bg-V0q">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1Y-ZS-dct" userLabel="canvas">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <rect key="frame" x="0.0" y="72.666666666666686" width="375" height="667"/>
                     <subviews>
                         <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5rw-9v-ExQ">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -78,7 +79,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MS-N5-3xY">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                    <rect key="frame" x="0.0" y="40" width="375" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-2Z-r5q">
                             <rect key="frame" x="198" y="0.0" width="165" height="60"/>
@@ -134,7 +135,7 @@
                             </subviews>
                         </stackView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9an-1W-thw">
-                            <rect key="frame" x="12" y="11.5" width="30" height="37"/>
+                            <rect key="frame" x="12" y="11.666666666666664" width="30" height="37"/>
                             <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="25"/>
                             <size key="titleShadowOffset" width="1" height="0.0"/>
                             <state key="normal" title="">
@@ -157,7 +158,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGa-1B-gkO" customClass="GradientView" customModule="iOSPhotoEditor" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                    <rect key="frame" x="0.0" y="732" width="375" height="80"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="80" id="OFW-hK-G1P"/>
@@ -167,7 +168,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87h-1G-t5q">
-                    <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                    <rect key="frame" x="0.0" y="712" width="375" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZRl-89-gRO">
                             <rect key="frame" x="12" y="0.0" width="120" height="52"/>
@@ -234,7 +235,7 @@
                     </constraints>
                 </view>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-y4-Jwh">
-                    <rect key="frame" x="323" y="12" width="40" height="32"/>
+                    <rect key="frame" x="323" y="52" width="40" height="32"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                     <size key="titleShadowOffset" width="1" height="0.0"/>
                     <state key="normal" title="Done">
@@ -246,10 +247,10 @@
                     </connections>
                 </button>
                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAt-sK-1nK">
-                    <rect key="frame" x="162" y="605" width="50" height="50"/>
+                    <rect key="frame" x="162.66666666666666" y="710" width="50" height="50"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqh-uS-U1m">
-                            <rect key="frame" x="9.5" y="10" width="31" height="30"/>
+                            <rect key="frame" x="9.6666666666666856" y="10" width="31" height="30"/>
                             <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="30"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -266,7 +267,7 @@
                     </constraints>
                 </view>
                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cy8-ap-fH9" userLabel="Color Picker">
-                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <rect key="frame" x="0.0" y="722" width="375" height="50"/>
                     <subviews>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="GaQ-XR-asZ">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
@@ -292,19 +293,19 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.1764705882" green="0.2666666667" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="87h-1G-t5q" firstAttribute="leading" secondItem="HPk-Bg-V0q" secondAttribute="leading" id="0ft-JY-szV"/>
-                <constraint firstItem="KxU-y4-Jwh" firstAttribute="top" secondItem="HPk-Bg-V0q" secondAttribute="top" constant="12" id="1QI-yc-Gke"/>
+                <constraint firstItem="KxU-y4-Jwh" firstAttribute="top" secondItem="HPk-Bg-V0q" secondAttribute="top" constant="52" id="1QI-yc-Gke"/>
                 <constraint firstItem="Cy8-ap-fH9" firstAttribute="centerX" secondItem="HPk-Bg-V0q" secondAttribute="centerX" id="24Z-2f-Tyk"/>
                 <constraint firstItem="S1Y-ZS-dct" firstAttribute="leading" secondItem="HPk-Bg-V0q" secondAttribute="leading" id="2tC-2e-oA6"/>
                 <constraint firstItem="Cy8-ap-fH9" firstAttribute="leading" secondItem="HPk-Bg-V0q" secondAttribute="leading" id="6eK-mF-0OL"/>
-                <constraint firstItem="3MS-N5-3xY" firstAttribute="top" secondItem="HPk-Bg-V0q" secondAttribute="top" id="Fj6-PW-wbF"/>
+                <constraint firstItem="3MS-N5-3xY" firstAttribute="top" secondItem="HPk-Bg-V0q" secondAttribute="top" constant="40" id="Fj6-PW-wbF"/>
                 <constraint firstAttribute="trailing" secondItem="3MS-N5-3xY" secondAttribute="trailing" id="M86-Ia-XcZ"/>
                 <constraint firstItem="rLz-36-0xz" firstAttribute="top" secondItem="HPk-Bg-V0q" secondAttribute="top" id="RYD-1T-XNJ"/>
                 <constraint firstAttribute="trailing" secondItem="ZGa-1B-gkO" secondAttribute="trailing" id="SbH-L6-vj9"/>
                 <constraint firstItem="yAt-sK-1nK" firstAttribute="centerX" secondItem="HPk-Bg-V0q" secondAttribute="centerX" id="Viz-8c-pzk"/>
-                <constraint firstAttribute="bottom" secondItem="87h-1G-t5q" secondAttribute="bottom" id="XH4-oO-47L"/>
+                <constraint firstAttribute="bottom" secondItem="87h-1G-t5q" secondAttribute="bottom" constant="40" id="XH4-oO-47L"/>
                 <constraint firstItem="ZGa-1B-gkO" firstAttribute="leading" secondItem="HPk-Bg-V0q" secondAttribute="leading" id="YYk-Vg-obo"/>
                 <constraint firstAttribute="trailing" secondItem="KxU-y4-Jwh" secondAttribute="trailing" constant="12" id="Z0h-d5-J2Z"/>
                 <constraint firstAttribute="trailing" secondItem="Cy8-ap-fH9" secondAttribute="trailing" id="dlF-iN-Gjg"/>
@@ -312,13 +313,14 @@
                 <constraint firstAttribute="trailing" secondItem="87h-1G-t5q" secondAttribute="trailing" id="kaD-bR-ZZt"/>
                 <constraint firstItem="S1Y-ZS-dct" firstAttribute="centerY" secondItem="HPk-Bg-V0q" secondAttribute="centerY" id="lCZ-Hj-EUs"/>
                 <constraint firstAttribute="trailing" secondItem="rLz-36-0xz" secondAttribute="trailing" id="moc-tG-rwG"/>
-                <constraint firstAttribute="bottom" secondItem="Cy8-ap-fH9" secondAttribute="bottom" id="mok-x4-xHA"/>
-                <constraint firstAttribute="bottom" secondItem="yAt-sK-1nK" secondAttribute="bottom" constant="12" id="of3-AC-FQE"/>
+                <constraint firstAttribute="bottom" secondItem="Cy8-ap-fH9" secondAttribute="bottom" constant="40" id="mok-x4-xHA"/>
+                <constraint firstAttribute="bottom" secondItem="yAt-sK-1nK" secondAttribute="bottom" constant="52" id="of3-AC-FQE"/>
                 <constraint firstItem="rLz-36-0xz" firstAttribute="leading" secondItem="HPk-Bg-V0q" secondAttribute="leading" id="orL-eE-RPq"/>
                 <constraint firstAttribute="bottom" secondItem="ZGa-1B-gkO" secondAttribute="bottom" id="uXH-MJ-Z8t"/>
                 <constraint firstItem="S1Y-ZS-dct" firstAttribute="centerX" secondItem="HPk-Bg-V0q" secondAttribute="centerX" id="uyk-kx-vrC"/>
                 <constraint firstItem="3MS-N5-3xY" firstAttribute="leading" secondItem="HPk-Bg-V0q" secondAttribute="leading" id="zYw-cX-ezI"/>
             </constraints>
+            <point key="canvasLocation" x="34" y="79"/>
         </view>
     </objects>
 </document>
