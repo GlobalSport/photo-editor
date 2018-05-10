@@ -103,7 +103,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-iy-2Rc">
                                     <rect key="frame" x="45" y="0.0" width="30" height="60"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" image="annotateEmoji">
+                                    <state key="normal" image="annotateEmoji.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                     </state>
@@ -114,7 +114,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm4-f6-DBr">
                                     <rect key="frame" x="90" y="0.0" width="30" height="60"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" image="annotatePencil">
+                                    <state key="normal" image="annotatePencil.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                     </state>
@@ -125,7 +125,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wH-LJ-SyD">
                                     <rect key="frame" x="135" y="0.0" width="30" height="60"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" image="annotateText">
+                                    <state key="normal" image="annotateText.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                     </state>
@@ -177,7 +177,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-Jz-sic">
                                     <rect key="frame" x="0.0" y="0.0" width="24" height="52"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" image="annotateSave">
+                                    <state key="normal" image="annotateSave.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                     </state>
@@ -188,7 +188,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlw-H0-WcJ">
                                     <rect key="frame" x="54" y="0.0" width="24" height="52"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" image="annotateShare">
+                                    <state key="normal" image="annotateShare.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                     </state>
@@ -199,7 +199,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpe-Ez-Cio">
                                     <rect key="frame" x="108" y="0.0" width="24" height="52"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
-                                    <state key="normal" image="annotateRefresh">
+                                    <state key="normal" image="annotateRefresh.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                     </state>
@@ -216,7 +216,7 @@
                                 <constraint firstAttribute="height" constant="70" id="ue6-Rp-vcX"/>
                             </constraints>
                             <size key="titleShadowOffset" width="1" height="0.0"/>
-                            <state key="normal" image="annotateSend">
+                            <state key="normal" image="annotateSend.png">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                             </state>
@@ -358,12 +358,12 @@
         </view>
     </objects>
     <resources>
-        <image name="annotateEmoji" width="24" height="23"/>
-        <image name="annotatePencil" width="22" height="23"/>
-        <image name="annotateRefresh" width="20" height="24"/>
-        <image name="annotateSave" width="24" height="23"/>
-        <image name="annotateSend" width="31" height="60"/>
-        <image name="annotateShare" width="24" height="23"/>
-        <image name="annotateText" width="22" height="18"/>
+        <image name="annotateEmoji.png" width="24" height="23"/>
+        <image name="annotatePencil.png" width="22" height="23"/>
+        <image name="annotateRefresh.png" width="20" height="24"/>
+        <image name="annotateSave.png" width="24" height="23"/>
+        <image name="annotateSend.png" width="31" height="60"/>
+        <image name="annotateShare.png" width="24" height="23"/>
+        <image name="annotateText.png" width="22" height="18"/>
     </resources>
 </document>
