@@ -64,27 +64,27 @@
 /* Begin PBXFileReference section */
 		038BD5760F7B49EFC76811B34F407C9C /* StickersViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StickersViewController.swift; path = "Photo Editor/StickersViewController.swift"; sourceTree = "<group>"; };
 		08EBD3D7AAFD126743D443E90112F2ED /* StickersViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StickersViewController.xib; path = "Photo Editor/StickersViewController.xib"; sourceTree = "<group>"; };
-		0D27171520A3EDF40088ECB7 /* annotateEmoji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateEmoji@3x.png"; path = "../../Downloads/annotateEmoji_2018-05-10/annotateEmoji@3x.png"; sourceTree = "<group>"; };
-		0D27171620A3EDF40088ECB7 /* annotateEmoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateEmoji@2x.png"; path = "../../Downloads/annotateEmoji_2018-05-10/annotateEmoji@2x.png"; sourceTree = "<group>"; };
-		0D27171720A3EDF40088ECB7 /* annotateEmoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotateEmoji.png; path = "../../Downloads/annotateEmoji_2018-05-10/annotateEmoji.png"; sourceTree = "<group>"; };
-		0D27171820A3EE390088ECB7 /* annotatePencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotatePencil.png; path = "../../Downloads/annotatePencil_2018-05-10/annotatePencil.png"; sourceTree = "<group>"; };
-		0D27171920A3EE390088ECB7 /* annotatePencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotatePencil@2x.png"; path = "../../Downloads/annotatePencil_2018-05-10/annotatePencil@2x.png"; sourceTree = "<group>"; };
-		0D27171A20A3EE390088ECB7 /* annotatePencil@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotatePencil@3x.png"; path = "../../Downloads/annotatePencil_2018-05-10/annotatePencil@3x.png"; sourceTree = "<group>"; };
-		0D27171B20A3EE430088ECB7 /* annotateText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotateText.png; path = "../../Downloads/annotateText_2018-05-10/annotateText.png"; sourceTree = "<group>"; };
-		0D27171C20A3EE430088ECB7 /* annotateText@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateText@3x.png"; path = "../../Downloads/annotateText_2018-05-10/annotateText@3x.png"; sourceTree = "<group>"; };
-		0D27171D20A3EE430088ECB7 /* annotateText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateText@2x.png"; path = "../../Downloads/annotateText_2018-05-10/annotateText@2x.png"; sourceTree = "<group>"; };
-		0D27171E20A3EE4B0088ECB7 /* annotateSave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotateSave.png; path = "../../Downloads/annotateSave_2018-05-10/annotateSave.png"; sourceTree = "<group>"; };
-		0D27171F20A3EE4B0088ECB7 /* annotateSave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateSave@2x.png"; path = "../../Downloads/annotateSave_2018-05-10/annotateSave@2x.png"; sourceTree = "<group>"; };
-		0D27172020A3EE4B0088ECB7 /* annotateSave@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateSave@3x.png"; path = "../../Downloads/annotateSave_2018-05-10/annotateSave@3x.png"; sourceTree = "<group>"; };
-		0D27172120A3EE550088ECB7 /* annotateShare@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateShare@3x.png"; path = "../../Downloads/annotateShare_2018-05-10/annotateShare@3x.png"; sourceTree = "<group>"; };
-		0D27172220A3EE550088ECB7 /* annotateShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateShare@2x.png"; path = "../../Downloads/annotateShare_2018-05-10/annotateShare@2x.png"; sourceTree = "<group>"; };
-		0D27172320A3EE550088ECB7 /* annotateShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotateShare.png; path = "../../Downloads/annotateShare_2018-05-10/annotateShare.png"; sourceTree = "<group>"; };
-		0D27172420A3EE5E0088ECB7 /* annotateSend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateSend@3x.png"; path = "../../Downloads/annotateSend_2018-05-10/annotateSend@3x.png"; sourceTree = "<group>"; };
-		0D27172520A3EE5E0088ECB7 /* annotateSend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotateSend.png; path = "../../Downloads/annotateSend_2018-05-10/annotateSend.png"; sourceTree = "<group>"; };
-		0D27172620A3EE5E0088ECB7 /* annotateSend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateSend@2x.png"; path = "../../Downloads/annotateSend_2018-05-10/annotateSend@2x.png"; sourceTree = "<group>"; };
-		0D27172720A3EE650088ECB7 /* annotateRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = annotateRefresh.png; path = "../../Downloads/annotateRefresh_2018-05-10/annotateRefresh.png"; sourceTree = "<group>"; };
-		0D27172820A3EE650088ECB7 /* annotateRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateRefresh@2x.png"; path = "../../Downloads/annotateRefresh_2018-05-10/annotateRefresh@2x.png"; sourceTree = "<group>"; };
-		0D27172920A3EE650088ECB7 /* annotateRefresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "annotateRefresh@3x.png"; path = "../../Downloads/annotateRefresh_2018-05-10/annotateRefresh@3x.png"; sourceTree = "<group>"; };
+		0D4826EB20A3F15F00E54D05 /* annotateSend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateSend.png; sourceTree = "<group>"; };
+		0D4826EC20A3F15F00E54D05 /* annotatePencil@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotatePencil@3x.png"; sourceTree = "<group>"; };
+		0D4826ED20A3F16000E54D05 /* annotateShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateShare@2x.png"; sourceTree = "<group>"; };
+		0D4826EE20A3F16000E54D05 /* annotateEmoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateEmoji@2x.png"; sourceTree = "<group>"; };
+		0D4826EF20A3F16000E54D05 /* annotateSave@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSave@3x.png"; sourceTree = "<group>"; };
+		0D4826F020A3F16000E54D05 /* annotateText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateText.png; sourceTree = "<group>"; };
+		0D4826F120A3F16100E54D05 /* annotateSave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSave@2x.png"; sourceTree = "<group>"; };
+		0D4826F220A3F16100E54D05 /* annotateShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateShare.png; sourceTree = "<group>"; };
+		0D4826F320A3F16100E54D05 /* annotateEmoji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateEmoji@3x.png"; sourceTree = "<group>"; };
+		0D4826F420A3F16100E54D05 /* annotatePencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotatePencil.png; sourceTree = "<group>"; };
+		0D4826F520A3F16200E54D05 /* annotateRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateRefresh@2x.png"; sourceTree = "<group>"; };
+		0D4826F620A3F16200E54D05 /* annotateRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateRefresh.png; sourceTree = "<group>"; };
+		0D4826F720A3F16200E54D05 /* annotatePencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotatePencil@2x.png"; sourceTree = "<group>"; };
+		0D4826F820A3F16200E54D05 /* annotateRefresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateRefresh@3x.png"; sourceTree = "<group>"; };
+		0D4826F920A3F16300E54D05 /* annotateEmoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateEmoji.png; sourceTree = "<group>"; };
+		0D4826FA20A3F16300E54D05 /* annotateSave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateSave.png; sourceTree = "<group>"; };
+		0D4826FB20A3F16300E54D05 /* annotateShare@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateShare@3x.png"; sourceTree = "<group>"; };
+		0D4826FC20A3F16400E54D05 /* annotateSend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSend@2x.png"; sourceTree = "<group>"; };
+		0D4826FD20A3F16400E54D05 /* annotateText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateText@2x.png"; sourceTree = "<group>"; };
+		0D4826FE20A3F16400E54D05 /* annotateText@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateText@3x.png"; sourceTree = "<group>"; };
+		0D4826FF20A3F16500E54D05 /* annotateSend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSend@3x.png"; sourceTree = "<group>"; };
 		0D5CDBE6F637805E40B8896E284609ED /* PhotoEditor+Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PhotoEditor+Drawing.swift"; path = "Photo Editor/PhotoEditor+Drawing.swift"; sourceTree = "<group>"; };
 		11BB3F278A27183DD40B21449145CE97 /* iOSPhotoEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSPhotoEditor-dummy.m"; sourceTree = "<group>"; };
 		11E87830FBD7EF49172A67C0B35F65E4 /* CropRectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropRectView.swift; path = "Photo Editor/CropRectView.swift"; sourceTree = "<group>"; };
@@ -164,27 +164,27 @@
 		0D27171420A3EDCC0088ECB7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0D27171B20A3EE430088ECB7 /* annotateText.png */,
-				0D27171D20A3EE430088ECB7 /* annotateText@2x.png */,
-				0D27171C20A3EE430088ECB7 /* annotateText@3x.png */,
-				0D27171720A3EDF40088ECB7 /* annotateEmoji.png */,
-				0D27171620A3EDF40088ECB7 /* annotateEmoji@2x.png */,
-				0D27171520A3EDF40088ECB7 /* annotateEmoji@3x.png */,
-				0D27171820A3EE390088ECB7 /* annotatePencil.png */,
-				0D27171920A3EE390088ECB7 /* annotatePencil@2x.png */,
-				0D27171A20A3EE390088ECB7 /* annotatePencil@3x.png */,
-				0D27171E20A3EE4B0088ECB7 /* annotateSave.png */,
-				0D27171F20A3EE4B0088ECB7 /* annotateSave@2x.png */,
-				0D27172020A3EE4B0088ECB7 /* annotateSave@3x.png */,
-				0D27172320A3EE550088ECB7 /* annotateShare.png */,
-				0D27172220A3EE550088ECB7 /* annotateShare@2x.png */,
-				0D27172120A3EE550088ECB7 /* annotateShare@3x.png */,
-				0D27172520A3EE5E0088ECB7 /* annotateSend.png */,
-				0D27172620A3EE5E0088ECB7 /* annotateSend@2x.png */,
-				0D27172420A3EE5E0088ECB7 /* annotateSend@3x.png */,
-				0D27172720A3EE650088ECB7 /* annotateRefresh.png */,
-				0D27172820A3EE650088ECB7 /* annotateRefresh@2x.png */,
-				0D27172920A3EE650088ECB7 /* annotateRefresh@3x.png */,
+				0D4826F920A3F16300E54D05 /* annotateEmoji.png */,
+				0D4826EE20A3F16000E54D05 /* annotateEmoji@2x.png */,
+				0D4826F320A3F16100E54D05 /* annotateEmoji@3x.png */,
+				0D4826F420A3F16100E54D05 /* annotatePencil.png */,
+				0D4826F720A3F16200E54D05 /* annotatePencil@2x.png */,
+				0D4826EC20A3F15F00E54D05 /* annotatePencil@3x.png */,
+				0D4826F620A3F16200E54D05 /* annotateRefresh.png */,
+				0D4826F520A3F16200E54D05 /* annotateRefresh@2x.png */,
+				0D4826F820A3F16200E54D05 /* annotateRefresh@3x.png */,
+				0D4826FA20A3F16300E54D05 /* annotateSave.png */,
+				0D4826F120A3F16100E54D05 /* annotateSave@2x.png */,
+				0D4826EF20A3F16000E54D05 /* annotateSave@3x.png */,
+				0D4826EB20A3F15F00E54D05 /* annotateSend.png */,
+				0D4826FC20A3F16400E54D05 /* annotateSend@2x.png */,
+				0D4826FF20A3F16500E54D05 /* annotateSend@3x.png */,
+				0D4826F220A3F16100E54D05 /* annotateShare.png */,
+				0D4826ED20A3F16000E54D05 /* annotateShare@2x.png */,
+				0D4826FB20A3F16300E54D05 /* annotateShare@3x.png */,
+				0D4826F020A3F16000E54D05 /* annotateText.png */,
+				0D4826FD20A3F16400E54D05 /* annotateText@2x.png */,
+				0D4826FE20A3F16400E54D05 /* annotateText@3x.png */,
 			);
 			name = Images;
 			path = "/Users/n/photo-editor/Images";
