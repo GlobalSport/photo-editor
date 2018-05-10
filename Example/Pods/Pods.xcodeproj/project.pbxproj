@@ -199,6 +199,7 @@
 		A3D3D7F95954F9AB494C833E10E9308B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D27171020A3D8040088ECB7 /* Assets.xcassets */,
 				D2A4B8B2D1FEE0A3437100781DC375E4 /* ColorCollectionViewCell.xib */,
 				7A708A6FB08B4E6187FD3EA4CC9429F3 /* EmojiCollectionViewCell.xib */,
 				40F9FA1E8005E080A79319546E5E5EBD /* icomoon.ttf */,
@@ -223,7 +224,6 @@
 				11BB3F278A27183DD40B21449145CE97 /* iOSPhotoEditor-dummy.m */,
 				866CE3B328D5FBE9A7EEE05052E72CFD /* iOSPhotoEditor-prefix.pch */,
 				70C3DEF8DEF5C5972E34A28C3E496906 /* iOSPhotoEditor-umbrella.h */,
-				0D27171020A3D8040088ECB7 /* Assets.xcassets */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/iOSPhotoEditor";
