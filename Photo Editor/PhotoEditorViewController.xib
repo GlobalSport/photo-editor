@@ -188,7 +188,7 @@
                             </subviews>
                         </stackView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNH-TU-KxG">
-                            <rect key="frame" x="273" y="0.0" width="70" height="70"/>
+                            <rect key="frame" x="273" y="8" width="70" height="70"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="70" id="dB1-98-Y5E"/>
                                 <constraint firstAttribute="height" constant="70" id="ue6-Rp-vcX"/>
@@ -233,7 +233,7 @@
                         <constraint firstAttribute="bottom" secondItem="ZRl-89-gRO" secondAttribute="bottom" id="Bdt-cg-dLR"/>
                         <constraint firstAttribute="height" constant="70" id="EKL-MI-gVB"/>
                         <constraint firstItem="XGv-ei-idN" firstAttribute="centerY" secondItem="wNH-TU-KxG" secondAttribute="centerY" id="JyK-4R-EBZ"/>
-                        <constraint firstItem="wNH-TU-KxG" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" id="PbX-yz-0Hi"/>
+                        <constraint firstItem="wNH-TU-KxG" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" constant="8" id="PbX-yz-0Hi"/>
                         <constraint firstItem="a1k-M0-SXf" firstAttribute="top" secondItem="mW4-Jz-sic" secondAttribute="bottom" id="a0A-n6-Jrk"/>
                         <constraint firstItem="VDA-6F-01V" firstAttribute="centerX" secondItem="zlw-H0-WcJ" secondAttribute="centerX" id="bMl-7n-aTp"/>
                         <constraint firstItem="YR0-qN-wz3" firstAttribute="centerX" secondItem="Kpe-Ez-Cio" secondAttribute="centerX" id="by8-Va-Uv0"/>
