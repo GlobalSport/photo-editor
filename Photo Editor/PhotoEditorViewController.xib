@@ -154,10 +154,10 @@
                     <rect key="frame" x="20" y="739.66666666666663" width="355" height="70"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ZRl-89-gRO">
-                            <rect key="frame" x="12" y="0.0" width="132" height="70"/>
+                            <rect key="frame" x="12" y="-8" width="132" height="78"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-Jz-sic">
-                                    <rect key="frame" x="0.0" y="0.0" width="24" height="70"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="24" height="78"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" image="annotateSave.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -168,7 +168,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlw-H0-WcJ">
-                                    <rect key="frame" x="54" y="0.0" width="24" height="70"/>
+                                    <rect key="frame" x="54" y="0.0" width="24" height="78"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" image="annotateShare.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -179,7 +179,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpe-Ez-Cio">
-                                    <rect key="frame" x="108" y="0.0" width="24" height="70"/>
+                                    <rect key="frame" x="108" y="0.0" width="24" height="78"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" image="annotateRefresh.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -239,15 +239,15 @@
                         <constraint firstAttribute="height" constant="70" id="EKL-MI-gVB"/>
                         <constraint firstItem="XGv-ei-idN" firstAttribute="centerY" secondItem="wNH-TU-KxG" secondAttribute="centerY" id="JyK-4R-EBZ"/>
                         <constraint firstItem="wNH-TU-KxG" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" constant="8" id="PbX-yz-0Hi"/>
-                        <constraint firstItem="a1k-M0-SXf" firstAttribute="top" secondItem="mW4-Jz-sic" secondAttribute="bottom" constant="-8" id="a0A-n6-Jrk"/>
+                        <constraint firstItem="a1k-M0-SXf" firstAttribute="top" secondItem="mW4-Jz-sic" secondAttribute="bottom" constant="-12" id="a0A-n6-Jrk"/>
                         <constraint firstItem="VDA-6F-01V" firstAttribute="centerX" secondItem="zlw-H0-WcJ" secondAttribute="centerX" id="bMl-7n-aTp"/>
                         <constraint firstItem="YR0-qN-wz3" firstAttribute="centerX" secondItem="Kpe-Ez-Cio" secondAttribute="centerX" id="by8-Va-Uv0"/>
                         <constraint firstAttribute="trailing" secondItem="wNH-TU-KxG" secondAttribute="trailing" constant="12" id="dUX-Z1-0Ev"/>
-                        <constraint firstItem="ZRl-89-gRO" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" id="jMd-Og-yCn"/>
+                        <constraint firstItem="ZRl-89-gRO" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" constant="-8" id="jMd-Og-yCn"/>
                         <constraint firstItem="a1k-M0-SXf" firstAttribute="centerX" secondItem="mW4-Jz-sic" secondAttribute="centerX" id="kCw-6j-Jjw"/>
                         <constraint firstItem="ZRl-89-gRO" firstAttribute="leading" secondItem="87h-1G-t5q" secondAttribute="leading" constant="12" id="mn5-Hu-M5A"/>
-                        <constraint firstItem="VDA-6F-01V" firstAttribute="top" secondItem="zlw-H0-WcJ" secondAttribute="bottom" constant="-8" id="sbC-sd-2Ek"/>
-                        <constraint firstItem="YR0-qN-wz3" firstAttribute="top" secondItem="Kpe-Ez-Cio" secondAttribute="bottom" constant="-8" id="wMU-aj-0aa"/>
+                        <constraint firstItem="VDA-6F-01V" firstAttribute="top" secondItem="zlw-H0-WcJ" secondAttribute="bottom" constant="-12" id="sbC-sd-2Ek"/>
+                        <constraint firstItem="YR0-qN-wz3" firstAttribute="top" secondItem="Kpe-Ez-Cio" secondAttribute="bottom" constant="-12" id="wMU-aj-0aa"/>
                     </constraints>
                 </view>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-y4-Jwh">
