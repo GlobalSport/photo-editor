@@ -36,6 +36,11 @@ public final class PhotoEditorViewController: UIViewController {
     @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var shareButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
+    @IBOutlet weak var saveLabel: UILabel!
+    @IBOutlet weak var shareLabel: UILabel!
+    @IBOutlet weak var resetLabel: UILabel!
+    @IBOutlet weak var sendToGroupLabel: UILabel!
+    
     
     public var image: UIImage?
     /**
@@ -103,6 +108,26 @@ public final class PhotoEditorViewController: UIViewController {
         configureCollectionView()
         stickersViewController = StickersViewController(nibName: "StickersViewController", bundle: Bundle(for: StickersViewController.self))
         hideControls()
+        setupGestures()
+    }
+    
+    func setupGestures() {
+        //Reset
+        let tapClear = UITapGestureRecognizer(target: self, action: #selector(self.clearButtonTapped(_:)))
+        tapClear.delegate = self
+        resetLabel.addGestureRecognizer(tapClear)
+        //Share
+        let tapShare = UITapGestureRecognizer(target: self, action: #selector(self.shareButtonTapped(_:)))
+        tapShare.delegate = self
+        shareLabel.addGestureRecognizer(tapShare)
+        //Save
+        let tapSave = UITapGestureRecognizer(target: self, action: #selector(self.saveButtonTapped(_:)))
+        tapSave.delegate = self
+        saveLabel.addGestureRecognizer(tapSave)
+        //SendToGroup
+        let tapSend = UITapGestureRecognizer(target: self, action: #selector(self.continueButtonPressed(_:)))
+        tapSend.delegate = self
+        sendToGroupLabel.addGestureRecognizer(tapSend)
     }
     
     func configureCollectionView() {

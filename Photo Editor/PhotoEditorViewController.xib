@@ -29,8 +29,12 @@
                 <outlet property="drawButton" destination="Qm4-f6-DBr" id="yHl-a1-GgN"/>
                 <outlet property="imageView" destination="5rw-9v-ExQ" id="5lP-en-DGc"/>
                 <outlet property="imageViewHeightConstraint" destination="DdY-qb-dfp" id="ZY9-Em-cs4"/>
+                <outlet property="resetLabel" destination="YR0-qN-wz3" id="lV2-hh-Teu"/>
                 <outlet property="saveButton" destination="mW4-Jz-sic" id="1Uj-nU-EU1"/>
+                <outlet property="saveLabel" destination="a1k-M0-SXf" id="884-2F-uWl"/>
+                <outlet property="sendToGroupLabel" destination="XGv-ei-idN" id="qB3-Aj-HG2"/>
                 <outlet property="shareButton" destination="zlw-H0-WcJ" id="OZv-z0-8s8"/>
+                <outlet property="shareLabel" destination="VDA-6F-01V" id="nba-Zn-s0L"/>
                 <outlet property="stickerButton" destination="PLX-iy-2Rc" id="tzt-tW-R1r"/>
                 <outlet property="textButton" destination="0wH-LJ-SyD" id="ofN-bp-ZaE"/>
                 <outlet property="topToolbar" destination="3MS-N5-3xY" id="kzY-Ga-SoQ"/>
@@ -202,26 +206,27 @@
                                 <action selector="continueButtonPressed:" destination="-1" eventType="touchUpInside" id="0k9-Sl-9QG"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Reset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YR0-qN-wz3">
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Reset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YR0-qN-wz3">
                             <rect key="frame" x="115" y="40" width="42" height="21"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                             <color key="textColor" red="0.90196078431372551" green="0.94117647058823528" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDA-6F-01V">
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Share" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDA-6F-01V">
                             <rect key="frame" x="60" y="40" width="42" height="21"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                             <color key="textColor" red="0.90196078430000004" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Save" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1k-M0-SXf">
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Save" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1k-M0-SXf">
                             <rect key="frame" x="10" y="40" width="42" height="21"/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                             <color key="textColor" red="0.90196078430000004" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Send to Group  " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="76" translatesAutoresizingMaskIntoConstraints="NO" id="XGv-ei-idN">
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Send to Group  " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="76" translatesAutoresizingMaskIntoConstraints="NO" id="XGv-ei-idN" userLabel="Send to Group">
                             <rect key="frame" x="220" y="0.0" width="76" height="60"/>
+                            <gestureRecognizers/>
                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                             <color key="textColor" red="0.90196078430000004" green="0.94117647059999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -234,15 +239,15 @@
                         <constraint firstAttribute="height" constant="70" id="EKL-MI-gVB"/>
                         <constraint firstItem="XGv-ei-idN" firstAttribute="centerY" secondItem="wNH-TU-KxG" secondAttribute="centerY" id="JyK-4R-EBZ"/>
                         <constraint firstItem="wNH-TU-KxG" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" constant="8" id="PbX-yz-0Hi"/>
-                        <constraint firstItem="a1k-M0-SXf" firstAttribute="top" secondItem="mW4-Jz-sic" secondAttribute="bottom" id="a0A-n6-Jrk"/>
+                        <constraint firstItem="a1k-M0-SXf" firstAttribute="top" secondItem="mW4-Jz-sic" secondAttribute="bottom" constant="-8" id="a0A-n6-Jrk"/>
                         <constraint firstItem="VDA-6F-01V" firstAttribute="centerX" secondItem="zlw-H0-WcJ" secondAttribute="centerX" id="bMl-7n-aTp"/>
                         <constraint firstItem="YR0-qN-wz3" firstAttribute="centerX" secondItem="Kpe-Ez-Cio" secondAttribute="centerX" id="by8-Va-Uv0"/>
                         <constraint firstAttribute="trailing" secondItem="wNH-TU-KxG" secondAttribute="trailing" constant="12" id="dUX-Z1-0Ev"/>
                         <constraint firstItem="ZRl-89-gRO" firstAttribute="top" secondItem="87h-1G-t5q" secondAttribute="top" id="jMd-Og-yCn"/>
                         <constraint firstItem="a1k-M0-SXf" firstAttribute="centerX" secondItem="mW4-Jz-sic" secondAttribute="centerX" id="kCw-6j-Jjw"/>
                         <constraint firstItem="ZRl-89-gRO" firstAttribute="leading" secondItem="87h-1G-t5q" secondAttribute="leading" constant="12" id="mn5-Hu-M5A"/>
-                        <constraint firstItem="VDA-6F-01V" firstAttribute="top" secondItem="zlw-H0-WcJ" secondAttribute="bottom" id="sbC-sd-2Ek"/>
-                        <constraint firstItem="YR0-qN-wz3" firstAttribute="top" secondItem="Kpe-Ez-Cio" secondAttribute="bottom" id="wMU-aj-0aa"/>
+                        <constraint firstItem="VDA-6F-01V" firstAttribute="top" secondItem="zlw-H0-WcJ" secondAttribute="bottom" constant="-8" id="sbC-sd-2Ek"/>
+                        <constraint firstItem="YR0-qN-wz3" firstAttribute="top" secondItem="Kpe-Ez-Cio" secondAttribute="bottom" constant="-8" id="wMU-aj-0aa"/>
                     </constraints>
                 </view>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-y4-Jwh">
