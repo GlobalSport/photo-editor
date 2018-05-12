@@ -54,7 +54,6 @@ extension PhotoEditorViewController: StickersViewControllerDelegate {
         self.removeStickersView()
         
         view.center = canvasImageView.center
-        view.frame.size = CGSize(width: 250, height: 250)
 
         self.canvasImageView.addSubview(view)
         //Gestures
