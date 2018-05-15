@@ -22,7 +22,9 @@ class ColorsCollectionViewDelegate: NSObject, UICollectionViewDataSource, UIColl
                  UIColor(red: 122.0/255.0, green: 160.0/255.0, blue: 232.0/255.0, alpha: 1),
                  UIColor(red: 242.0/255.0, green: 249.0/255.0, blue: 135.0/255.0, alpha: 1),
                  UIColor(red: 0.0/255.0, green: 10.0/255.0, blue: 25.0/255.0, alpha: 1),
+                 UIColor.darkGray,
                  UIColor(red: 120.0/255.0, green: 130.0/255.0, blue: 145.0/255.0, alpha: 1),
+                 UIColor.lightGray,
                  UIColor(red: 230.0/255.0, green: 240.0/255.0, blue: 255.0/255.0, alpha: 1)
                  ]
     
