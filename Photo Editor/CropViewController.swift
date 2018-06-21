@@ -143,7 +143,8 @@ open class CropViewController: UIViewController {
         }
     }
     
-    @objc func constrain(_ sender: UIBarButtonItem) {
+    @objc
+    func constrain(_ sender: UIBarButtonItem) {
         let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let original = UIAlertAction(title: "Original", style: .default) { [unowned self] action in
             guard let image = self.cropView?.image else {

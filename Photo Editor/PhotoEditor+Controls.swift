@@ -65,8 +65,6 @@ extension PhotoEditorViewController {
         textView.autocorrectionType = .no
         textView.isScrollEnabled = false
         textView.delegate = self
-        textView.inputAccessoryView = nil
-        textView.reloadInputViews()
         self.canvasImageView.addSubview(textView)
         addGestures(view: textView)
         textView.becomeFirstResponder()

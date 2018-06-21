@@ -28,6 +28,6 @@ public extension UIImage {
             return CGSize(width: width, height: height)
         }
         
-        return nil
+        return CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
     }
 }

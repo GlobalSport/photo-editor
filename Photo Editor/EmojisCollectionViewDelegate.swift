@@ -37,10 +37,10 @@ class EmojisCollectionViewDelegate: NSObject, UICollectionViewDataSource, UIColl
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let emojiLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 140, height: 140))
+        let emojiLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 90, height: 90))
         emojiLabel.textAlignment = .center
         emojiLabel.text = emojis[indexPath.item]
-        emojiLabel.font = UIFont.systemFont(ofSize: 110)
+        emojiLabel.font = UIFont.systemFont(ofSize: 70)
         stickersViewControllerDelegate?.didSelectView(view: emojiLabel)
     }
     

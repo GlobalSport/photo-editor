@@ -21,7 +21,8 @@ extension PhotoEditorViewController {
         }
         let font = CGFont(fontDataProvider)
         var error: Unmanaged<CFError>?
-        guard CTFontManagerRegisterGraphicsFont(font!, &error) else {
+        guard let fontFind = font,
+            CTFontManagerRegisterGraphicsFont(fontFind, &error) else {
             return
         }
     }

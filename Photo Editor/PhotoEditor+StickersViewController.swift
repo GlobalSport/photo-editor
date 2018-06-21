@@ -17,10 +17,9 @@ extension PhotoEditorViewController {
         self.canvasImageView.isUserInteractionEnabled = false
         stickersViewController.stickersViewControllerDelegate = self
         
-        /*
         for image in self.stickers {
             stickersViewController.stickers.append(image)
-        }*/
+        }
         self.addChildViewController(stickersViewController)
         self.view.addSubview(stickersViewController.view)
         stickersViewController.didMove(toParentViewController: self)
@@ -54,7 +53,6 @@ extension PhotoEditorViewController: StickersViewControllerDelegate {
         self.removeStickersView()
         
         view.center = canvasImageView.center
-
         self.canvasImageView.addSubview(view)
         //Gestures
         addGestures(view: view)
@@ -65,7 +63,7 @@ extension PhotoEditorViewController: StickersViewControllerDelegate {
         
         let imageView = UIImageView(image: image)
         imageView.contentMode = .scaleAspectFit
-        imageView.frame.size = CGSize(width: 300, height: 300)
+        imageView.frame.size = CGSize(width: 150, height: 150)
         imageView.center = canvasImageView.center
         
         self.canvasImageView.addSubview(imageView)

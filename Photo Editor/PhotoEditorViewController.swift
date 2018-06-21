@@ -21,6 +21,8 @@ public final class PhotoEditorViewController: UIViewController {
     @IBOutlet weak var topToolbar: UIView!
     @IBOutlet weak var bottomToolbar: UIView!
 
+    @IBOutlet weak var topGradient: UIView!
+    @IBOutlet weak var bottomGradient: UIView!
     
     @IBOutlet weak var doneButton: UIButton!
     @IBOutlet weak var deleteView: UIView!
@@ -36,11 +38,6 @@ public final class PhotoEditorViewController: UIViewController {
     @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var shareButton: UIButton!
     @IBOutlet weak var clearButton: UIButton!
-    @IBOutlet weak var saveLabel: UILabel!
-    @IBOutlet weak var shareLabel: UILabel!
-    @IBOutlet weak var resetLabel: UILabel!
-    @IBOutlet weak var sendToGroupLabel: UILabel!
-    
     
     public var image: UIImage?
     /**
@@ -99,8 +96,6 @@ public final class PhotoEditorViewController: UIViewController {
                                                name: .UIKeyboardDidShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide),
                                                name: .UIKeyboardWillHide, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide),
-                                               name: .UIKeyboardDidHide, object: nil)
         NotificationCenter.default.addObserver(self,selector: #selector(keyboardWillChangeFrame(_:)),
                                                name: .UIKeyboardWillChangeFrame, object: nil)
         
@@ -108,31 +103,11 @@ public final class PhotoEditorViewController: UIViewController {
         configureCollectionView()
         stickersViewController = StickersViewController(nibName: "StickersViewController", bundle: Bundle(for: StickersViewController.self))
         hideControls()
-        setupGestures()
-    }
-    
-    func setupGestures() {
-        //Reset
-        let tapClear = UITapGestureRecognizer(target: self, action: #selector(self.clearButtonTapped(_:)))
-        tapClear.delegate = self
-        resetLabel.addGestureRecognizer(tapClear)
-        //Share
-        let tapShare = UITapGestureRecognizer(target: self, action: #selector(self.shareButtonTapped(_:)))
-        tapShare.delegate = self
-        shareLabel.addGestureRecognizer(tapShare)
-        //Save
-        let tapSave = UITapGestureRecognizer(target: self, action: #selector(self.saveButtonTapped(_:)))
-        tapSave.delegate = self
-        saveLabel.addGestureRecognizer(tapSave)
-        //SendToGroup
-        let tapSend = UITapGestureRecognizer(target: self, action: #selector(self.continueButtonPressed(_:)))
-        tapSend.delegate = self
-        sendToGroupLabel.addGestureRecognizer(tapSend)
     }
     
     func configureCollectionView() {
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 60, height: 60)
+        layout.itemSize = CGSize(width: 30, height: 30)
         layout.scrollDirection = .horizontal
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
@@ -153,12 +128,15 @@ public final class PhotoEditorViewController: UIViewController {
     func setImageView(image: UIImage) {
         imageView.image = image
         let size = image.suitableSize(widthLimit: UIScreen.main.bounds.width)
+
         imageViewHeightConstraint.constant = (size?.height)!
     }
     
     func hideToolbar(hide: Bool) {
         topToolbar.isHidden = hide
+        topGradient.isHidden = hide
         bottomToolbar.isHidden = hide
+        bottomGradient.isHidden = hide
     }
 }
 
