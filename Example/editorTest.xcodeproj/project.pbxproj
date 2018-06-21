@@ -14,6 +14,64 @@
 		05D951DC1EBB868F00DC2299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D951DB1EBB868F00DC2299 /* Assets.xcassets */; };
 		05D951DF1EBB868F00DC2299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D951DD1EBB868F00DC2299 /* LaunchScreen.storyboard */; };
 		1E8769B2C8BB5791725BA6E1 /* Pods_editorTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523415672FBA91B051BDB5FA /* Pods_editorTest.framework */; };
+		C9EF27A920DBF51900D9FFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EF276B20DBF51800D9FFFF /* LaunchScreen.storyboard */; };
+		C9EF27AA20DBF51900D9FFFF /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF276D20DBF51800D9FFFF /* ColorCollectionViewCell.swift */; };
+		C9EF27AB20DBF51900D9FFFF /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EF276E20DBF51800D9FFFF /* ColorCollectionViewCell.xib */; };
+		C9EF27AC20DBF51900D9FFFF /* ColorsCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF276F20DBF51800D9FFFF /* ColorsCollectionViewDelegate.swift */; };
+		C9EF27AD20DBF51900D9FFFF /* CropRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF277020DBF51800D9FFFF /* CropRectView.swift */; };
+		C9EF27AE20DBF51900D9FFFF /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF277120DBF51800D9FFFF /* CropView.swift */; };
+		C9EF27AF20DBF51900D9FFFF /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF277220DBF51800D9FFFF /* CropViewController.swift */; };
+		C9EF27B020DBF51900D9FFFF /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF277320DBF51800D9FFFF /* EmojiCollectionViewCell.swift */; };
+		C9EF27B120DBF51900D9FFFF /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277420DBF51800D9FFFF /* EmojiCollectionViewCell.xib */; };
+		C9EF27B220DBF51900D9FFFF /* EmojisCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF277520DBF51800D9FFFF /* EmojisCollectionViewDelegate.swift */; };
+		C9EF27B320DBF51900D9FFFF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF277620DBF51800D9FFFF /* GradientView.swift */; };
+		C9EF27B420DBF51900D9FFFF /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277720DBF51800D9FFFF /* icomoon.ttf */; };
+		C9EF27B520DBF51900D9FFFF /* annotateEmoji.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277920DBF51800D9FFFF /* annotateEmoji.png */; };
+		C9EF27B620DBF51900D9FFFF /* annotateEmoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277A20DBF51800D9FFFF /* annotateEmoji@2x.png */; };
+		C9EF27B720DBF51900D9FFFF /* annotateEmoji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277B20DBF51800D9FFFF /* annotateEmoji@3x.png */; };
+		C9EF27B820DBF51900D9FFFF /* annotatePencil.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277C20DBF51800D9FFFF /* annotatePencil.png */; };
+		C9EF27B920DBF51900D9FFFF /* annotatePencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277D20DBF51800D9FFFF /* annotatePencil@2x.png */; };
+		C9EF27BA20DBF51900D9FFFF /* annotatePencil@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277E20DBF51800D9FFFF /* annotatePencil@3x.png */; };
+		C9EF27BB20DBF51900D9FFFF /* annotateRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF277F20DBF51800D9FFFF /* annotateRefresh.png */; };
+		C9EF27BC20DBF51900D9FFFF /* annotateRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278020DBF51800D9FFFF /* annotateRefresh@2x.png */; };
+		C9EF27BD20DBF51900D9FFFF /* annotateRefresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278120DBF51800D9FFFF /* annotateRefresh@3x.png */; };
+		C9EF27BE20DBF51900D9FFFF /* annotateSave.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278220DBF51800D9FFFF /* annotateSave.png */; };
+		C9EF27BF20DBF51900D9FFFF /* annotateSave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278320DBF51800D9FFFF /* annotateSave@2x.png */; };
+		C9EF27C020DBF51900D9FFFF /* annotateSave@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278420DBF51900D9FFFF /* annotateSave@3x.png */; };
+		C9EF27C120DBF51900D9FFFF /* annotateSend.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278520DBF51900D9FFFF /* annotateSend.png */; };
+		C9EF27C220DBF51900D9FFFF /* annotateSend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278620DBF51900D9FFFF /* annotateSend@2x.png */; };
+		C9EF27C320DBF51900D9FFFF /* annotateSend@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278720DBF51900D9FFFF /* annotateSend@3x.png */; };
+		C9EF27C420DBF51900D9FFFF /* annotateShare.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278820DBF51900D9FFFF /* annotateShare.png */; };
+		C9EF27C520DBF51900D9FFFF /* annotateShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278920DBF51900D9FFFF /* annotateShare@2x.png */; };
+		C9EF27C620DBF51900D9FFFF /* annotateShare@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278A20DBF51900D9FFFF /* annotateShare@3x.png */; };
+		C9EF27C720DBF51900D9FFFF /* annotateText.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278B20DBF51900D9FFFF /* annotateText.png */; };
+		C9EF27C820DBF51900D9FFFF /* annotateText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278C20DBF51900D9FFFF /* annotateText@2x.png */; };
+		C9EF27C920DBF51900D9FFFF /* annotateText@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278D20DBF51900D9FFFF /* annotateText@3x.png */; };
+		C9EF27CA20DBF51900D9FFFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278E20DBF51900D9FFFF /* Info.plist */; };
+		C9EF27CB20DBF51900D9FFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EF278F20DBF51900D9FFFF /* LaunchScreen.storyboard */; };
+		C9EF27CC20DBF51900D9FFFF /* PhotoCropEditorBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF279020DBF51900D9FFFF /* PhotoCropEditorBorder.png */; };
+		C9EF27CD20DBF51900D9FFFF /* PhotoCropEditorBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF279120DBF51900D9FFFF /* PhotoCropEditorBorder@2x.png */; };
+		C9EF27CE20DBF51900D9FFFF /* PhotoCropEditorBorder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EF279220DBF51900D9FFFF /* PhotoCropEditorBorder@3x.png */; };
+		C9EF27CF20DBF51900D9FFFF /* PhotoEditor+Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279320DBF51900D9FFFF /* PhotoEditor+Controls.swift */; };
+		C9EF27D020DBF51900D9FFFF /* PhotoEditor+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279420DBF51900D9FFFF /* PhotoEditor+Crop.swift */; };
+		C9EF27D120DBF51900D9FFFF /* PhotoEditor+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279520DBF51900D9FFFF /* PhotoEditor+Drawing.swift */; };
+		C9EF27D220DBF51900D9FFFF /* PhotoEditor+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279620DBF51900D9FFFF /* PhotoEditor+Font.swift */; };
+		C9EF27D320DBF51900D9FFFF /* PhotoEditor+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279720DBF51900D9FFFF /* PhotoEditor+Gestures.swift */; };
+		C9EF27D420DBF51900D9FFFF /* PhotoEditor+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279820DBF51900D9FFFF /* PhotoEditor+Keyboard.swift */; };
+		C9EF27D520DBF51900D9FFFF /* PhotoEditor+StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279920DBF51900D9FFFF /* PhotoEditor+StickersViewController.swift */; };
+		C9EF27D620DBF51900D9FFFF /* PhotoEditor+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279A20DBF51900D9FFFF /* PhotoEditor+UITextView.swift */; };
+		C9EF27D720DBF51900D9FFFF /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279B20DBF51900D9FFFF /* PhotoEditorViewController.swift */; };
+		C9EF27D820DBF51900D9FFFF /* PhotoEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EF279C20DBF51900D9FFFF /* PhotoEditorViewController.xib */; };
+		C9EF27D920DBF51900D9FFFF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279D20DBF51900D9FFFF /* Protocols.swift */; };
+		C9EF27DA20DBF51900D9FFFF /* ResizeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279E20DBF51900D9FFFF /* ResizeControl.swift */; };
+		C9EF27DB20DBF51900D9FFFF /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF279F20DBF51900D9FFFF /* StickerCollectionViewCell.swift */; };
+		C9EF27DC20DBF51900D9FFFF /* StickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EF27A020DBF51900D9FFFF /* StickerCollectionViewCell.xib */; };
+		C9EF27DD20DBF51900D9FFFF /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF27A120DBF51900D9FFFF /* StickersViewController.swift */; };
+		C9EF27DE20DBF51900D9FFFF /* StickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9EF27A220DBF51900D9FFFF /* StickersViewController.xib */; };
+		C9EF27DF20DBF51900D9FFFF /* UIImage+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF27A320DBF51900D9FFFF /* UIImage+Crop.swift */; };
+		C9EF27E020DBF51900D9FFFF /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF27A420DBF51900D9FFFF /* UIImage+Size.swift */; };
+		C9EF27E120DBF51900D9FFFF /* UIImageView+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF27A520DBF51900D9FFFF /* UIImageView+Alpha.swift */; };
+		C9EF27E220DBF51900D9FFFF /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF27A620DBF51900D9FFFF /* UIView+Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +85,64 @@
 		05D951E01EBB868F00DC2299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523415672FBA91B051BDB5FA /* Pods_editorTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_editorTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEB4D5FF7C66761863E5E50 /* Pods-editorTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-editorTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-editorTest/Pods-editorTest.release.xcconfig"; sourceTree = "<group>"; };
+		C9EF276C20DBF51800D9FFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9EF276D20DBF51800D9FFFF /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9EF276E20DBF51800D9FFFF /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		C9EF276F20DBF51800D9FFFF /* ColorsCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		C9EF277020DBF51800D9FFFF /* CropRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropRectView.swift; sourceTree = "<group>"; };
+		C9EF277120DBF51800D9FFFF /* CropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		C9EF277220DBF51800D9FFFF /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		C9EF277320DBF51800D9FFFF /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9EF277420DBF51800D9FFFF /* EmojiCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		C9EF277520DBF51800D9FFFF /* EmojisCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojisCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		C9EF277620DBF51800D9FFFF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C9EF277720DBF51800D9FFFF /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		C9EF277920DBF51800D9FFFF /* annotateEmoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateEmoji.png; sourceTree = "<group>"; };
+		C9EF277A20DBF51800D9FFFF /* annotateEmoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateEmoji@2x.png"; sourceTree = "<group>"; };
+		C9EF277B20DBF51800D9FFFF /* annotateEmoji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateEmoji@3x.png"; sourceTree = "<group>"; };
+		C9EF277C20DBF51800D9FFFF /* annotatePencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotatePencil.png; sourceTree = "<group>"; };
+		C9EF277D20DBF51800D9FFFF /* annotatePencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotatePencil@2x.png"; sourceTree = "<group>"; };
+		C9EF277E20DBF51800D9FFFF /* annotatePencil@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotatePencil@3x.png"; sourceTree = "<group>"; };
+		C9EF277F20DBF51800D9FFFF /* annotateRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateRefresh.png; sourceTree = "<group>"; };
+		C9EF278020DBF51800D9FFFF /* annotateRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateRefresh@2x.png"; sourceTree = "<group>"; };
+		C9EF278120DBF51800D9FFFF /* annotateRefresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateRefresh@3x.png"; sourceTree = "<group>"; };
+		C9EF278220DBF51800D9FFFF /* annotateSave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateSave.png; sourceTree = "<group>"; };
+		C9EF278320DBF51800D9FFFF /* annotateSave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSave@2x.png"; sourceTree = "<group>"; };
+		C9EF278420DBF51900D9FFFF /* annotateSave@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSave@3x.png"; sourceTree = "<group>"; };
+		C9EF278520DBF51900D9FFFF /* annotateSend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateSend.png; sourceTree = "<group>"; };
+		C9EF278620DBF51900D9FFFF /* annotateSend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSend@2x.png"; sourceTree = "<group>"; };
+		C9EF278720DBF51900D9FFFF /* annotateSend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateSend@3x.png"; sourceTree = "<group>"; };
+		C9EF278820DBF51900D9FFFF /* annotateShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateShare.png; sourceTree = "<group>"; };
+		C9EF278920DBF51900D9FFFF /* annotateShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateShare@2x.png"; sourceTree = "<group>"; };
+		C9EF278A20DBF51900D9FFFF /* annotateShare@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateShare@3x.png"; sourceTree = "<group>"; };
+		C9EF278B20DBF51900D9FFFF /* annotateText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotateText.png; sourceTree = "<group>"; };
+		C9EF278C20DBF51900D9FFFF /* annotateText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateText@2x.png"; sourceTree = "<group>"; };
+		C9EF278D20DBF51900D9FFFF /* annotateText@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "annotateText@3x.png"; sourceTree = "<group>"; };
+		C9EF278E20DBF51900D9FFFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EF278F20DBF51900D9FFFF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9EF279020DBF51900D9FFFF /* PhotoCropEditorBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoCropEditorBorder.png; sourceTree = "<group>"; };
+		C9EF279120DBF51900D9FFFF /* PhotoCropEditorBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoCropEditorBorder@2x.png"; sourceTree = "<group>"; };
+		C9EF279220DBF51900D9FFFF /* PhotoCropEditorBorder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoCropEditorBorder@3x.png"; sourceTree = "<group>"; };
+		C9EF279320DBF51900D9FFFF /* PhotoEditor+Controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Controls.swift"; sourceTree = "<group>"; };
+		C9EF279420DBF51900D9FFFF /* PhotoEditor+Crop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Crop.swift"; sourceTree = "<group>"; };
+		C9EF279520DBF51900D9FFFF /* PhotoEditor+Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Drawing.swift"; sourceTree = "<group>"; };
+		C9EF279620DBF51900D9FFFF /* PhotoEditor+Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Font.swift"; sourceTree = "<group>"; };
+		C9EF279720DBF51900D9FFFF /* PhotoEditor+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Gestures.swift"; sourceTree = "<group>"; };
+		C9EF279820DBF51900D9FFFF /* PhotoEditor+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+Keyboard.swift"; sourceTree = "<group>"; };
+		C9EF279920DBF51900D9FFFF /* PhotoEditor+StickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+StickersViewController.swift"; sourceTree = "<group>"; };
+		C9EF279A20DBF51900D9FFFF /* PhotoEditor+UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhotoEditor+UITextView.swift"; sourceTree = "<group>"; };
+		C9EF279B20DBF51900D9FFFF /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		C9EF279C20DBF51900D9FFFF /* PhotoEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoEditorViewController.xib; sourceTree = "<group>"; };
+		C9EF279D20DBF51900D9FFFF /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		C9EF279E20DBF51900D9FFFF /* ResizeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeControl.swift; sourceTree = "<group>"; };
+		C9EF279F20DBF51900D9FFFF /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9EF27A020DBF51900D9FFFF /* StickerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		C9EF27A120DBF51900D9FFFF /* StickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersViewController.swift; sourceTree = "<group>"; };
+		C9EF27A220DBF51900D9FFFF /* StickersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StickersViewController.xib; sourceTree = "<group>"; };
+		C9EF27A320DBF51900D9FFFF /* UIImage+Crop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Crop.swift"; sourceTree = "<group>"; };
+		C9EF27A420DBF51900D9FFFF /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		C9EF27A520DBF51900D9FFFF /* UIImageView+Alpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Alpha.swift"; sourceTree = "<group>"; };
+		C9EF27A620DBF51900D9FFFF /* UIView+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Image.swift"; sourceTree = "<group>"; };
 		F2FE6D2857E80A528393FDF8 /* Pods-editorTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-editorTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-editorTest/Pods-editorTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +161,7 @@
 		05D951C81EBB868F00DC2299 = {
 			isa = PBXGroup;
 			children = (
+				C9EF276820DBF51800D9FFFF /* Photo Editor */,
 				05D951D31EBB868F00DC2299 /* editorTest */,
 				05D951D21EBB868F00DC2299 /* Products */,
 				1F352662116A335209D67D04 /* Pods */,
@@ -91,6 +208,80 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C9EF276820DBF51800D9FFFF /* Photo Editor */ = {
+			isa = PBXGroup;
+			children = (
+				C9EF276B20DBF51800D9FFFF /* LaunchScreen.storyboard */,
+				C9EF276D20DBF51800D9FFFF /* ColorCollectionViewCell.swift */,
+				C9EF276E20DBF51800D9FFFF /* ColorCollectionViewCell.xib */,
+				C9EF276F20DBF51800D9FFFF /* ColorsCollectionViewDelegate.swift */,
+				C9EF277020DBF51800D9FFFF /* CropRectView.swift */,
+				C9EF277120DBF51800D9FFFF /* CropView.swift */,
+				C9EF277220DBF51800D9FFFF /* CropViewController.swift */,
+				C9EF277320DBF51800D9FFFF /* EmojiCollectionViewCell.swift */,
+				C9EF277420DBF51800D9FFFF /* EmojiCollectionViewCell.xib */,
+				C9EF277520DBF51800D9FFFF /* EmojisCollectionViewDelegate.swift */,
+				C9EF277620DBF51800D9FFFF /* GradientView.swift */,
+				C9EF277720DBF51800D9FFFF /* icomoon.ttf */,
+				C9EF277820DBF51800D9FFFF /* Images */,
+				C9EF278E20DBF51900D9FFFF /* Info.plist */,
+				C9EF278F20DBF51900D9FFFF /* LaunchScreen.storyboard */,
+				C9EF279020DBF51900D9FFFF /* PhotoCropEditorBorder.png */,
+				C9EF279120DBF51900D9FFFF /* PhotoCropEditorBorder@2x.png */,
+				C9EF279220DBF51900D9FFFF /* PhotoCropEditorBorder@3x.png */,
+				C9EF279320DBF51900D9FFFF /* PhotoEditor+Controls.swift */,
+				C9EF279420DBF51900D9FFFF /* PhotoEditor+Crop.swift */,
+				C9EF279520DBF51900D9FFFF /* PhotoEditor+Drawing.swift */,
+				C9EF279620DBF51900D9FFFF /* PhotoEditor+Font.swift */,
+				C9EF279720DBF51900D9FFFF /* PhotoEditor+Gestures.swift */,
+				C9EF279820DBF51900D9FFFF /* PhotoEditor+Keyboard.swift */,
+				C9EF279920DBF51900D9FFFF /* PhotoEditor+StickersViewController.swift */,
+				C9EF279A20DBF51900D9FFFF /* PhotoEditor+UITextView.swift */,
+				C9EF279B20DBF51900D9FFFF /* PhotoEditorViewController.swift */,
+				C9EF279C20DBF51900D9FFFF /* PhotoEditorViewController.xib */,
+				C9EF279D20DBF51900D9FFFF /* Protocols.swift */,
+				C9EF279E20DBF51900D9FFFF /* ResizeControl.swift */,
+				C9EF279F20DBF51900D9FFFF /* StickerCollectionViewCell.swift */,
+				C9EF27A020DBF51900D9FFFF /* StickerCollectionViewCell.xib */,
+				C9EF27A120DBF51900D9FFFF /* StickersViewController.swift */,
+				C9EF27A220DBF51900D9FFFF /* StickersViewController.xib */,
+				C9EF27A320DBF51900D9FFFF /* UIImage+Crop.swift */,
+				C9EF27A420DBF51900D9FFFF /* UIImage+Size.swift */,
+				C9EF27A520DBF51900D9FFFF /* UIImageView+Alpha.swift */,
+				C9EF27A620DBF51900D9FFFF /* UIView+Image.swift */,
+			);
+			name = "Photo Editor";
+			path = "../Photo Editor";
+			sourceTree = "<group>";
+		};
+		C9EF277820DBF51800D9FFFF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C9EF277920DBF51800D9FFFF /* annotateEmoji.png */,
+				C9EF277A20DBF51800D9FFFF /* annotateEmoji@2x.png */,
+				C9EF277B20DBF51800D9FFFF /* annotateEmoji@3x.png */,
+				C9EF277C20DBF51800D9FFFF /* annotatePencil.png */,
+				C9EF277D20DBF51800D9FFFF /* annotatePencil@2x.png */,
+				C9EF277E20DBF51800D9FFFF /* annotatePencil@3x.png */,
+				C9EF277F20DBF51800D9FFFF /* annotateRefresh.png */,
+				C9EF278020DBF51800D9FFFF /* annotateRefresh@2x.png */,
+				C9EF278120DBF51800D9FFFF /* annotateRefresh@3x.png */,
+				C9EF278220DBF51800D9FFFF /* annotateSave.png */,
+				C9EF278320DBF51800D9FFFF /* annotateSave@2x.png */,
+				C9EF278420DBF51900D9FFFF /* annotateSave@3x.png */,
+				C9EF278520DBF51900D9FFFF /* annotateSend.png */,
+				C9EF278620DBF51900D9FFFF /* annotateSend@2x.png */,
+				C9EF278720DBF51900D9FFFF /* annotateSend@3x.png */,
+				C9EF278820DBF51900D9FFFF /* annotateShare.png */,
+				C9EF278920DBF51900D9FFFF /* annotateShare@2x.png */,
+				C9EF278A20DBF51900D9FFFF /* annotateShare@3x.png */,
+				C9EF278B20DBF51900D9FFFF /* annotateText.png */,
+				C9EF278C20DBF51900D9FFFF /* annotateText@2x.png */,
+				C9EF278D20DBF51900D9FFFF /* annotateText@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,8 +293,6 @@
 				05D951CD1EBB868F00DC2299 /* Sources */,
 				05D951CE1EBB868F00DC2299 /* Frameworks */,
 				05D951CF1EBB868F00DC2299 /* Resources */,
-				458F271CFB9EE8418E173988 /* [CP] Embed Pods Frameworks */,
-				3D2DBB15A3E53BFA967090C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,12 +310,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Mohamed Hamed";
 				TargetAttributes = {
 					05D951D01EBB868F00DC2299 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = PM5CQGZAJM;
+						DevelopmentTeam = 9BSXY77HTN;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,49 +344,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EF27B720DBF51900D9FFFF /* annotateEmoji@3x.png in Resources */,
+				C9EF27DC20DBF51900D9FFFF /* StickerCollectionViewCell.xib in Resources */,
+				C9EF27C820DBF51900D9FFFF /* annotateText@2x.png in Resources */,
+				C9EF27D820DBF51900D9FFFF /* PhotoEditorViewController.xib in Resources */,
+				C9EF27C220DBF51900D9FFFF /* annotateSend@2x.png in Resources */,
+				C9EF27C620DBF51900D9FFFF /* annotateShare@3x.png in Resources */,
+				C9EF27DE20DBF51900D9FFFF /* StickersViewController.xib in Resources */,
+				C9EF27C420DBF51900D9FFFF /* annotateShare.png in Resources */,
+				C9EF27BF20DBF51900D9FFFF /* annotateSave@2x.png in Resources */,
+				C9EF27CE20DBF51900D9FFFF /* PhotoCropEditorBorder@3x.png in Resources */,
 				058A26071EBC5448007256A1 /* img.jpg in Resources */,
 				05D951DF1EBB868F00DC2299 /* LaunchScreen.storyboard in Resources */,
+				C9EF27BE20DBF51900D9FFFF /* annotateSave.png in Resources */,
+				C9EF27CB20DBF51900D9FFFF /* LaunchScreen.storyboard in Resources */,
+				C9EF27BA20DBF51900D9FFFF /* annotatePencil@3x.png in Resources */,
+				C9EF27BC20DBF51900D9FFFF /* annotateRefresh@2x.png in Resources */,
+				C9EF27CC20DBF51900D9FFFF /* PhotoCropEditorBorder.png in Resources */,
+				C9EF27C120DBF51900D9FFFF /* annotateSend.png in Resources */,
+				C9EF27B520DBF51900D9FFFF /* annotateEmoji.png in Resources */,
 				05D951DC1EBB868F00DC2299 /* Assets.xcassets in Resources */,
+				C9EF27B620DBF51900D9FFFF /* annotateEmoji@2x.png in Resources */,
+				C9EF27C720DBF51900D9FFFF /* annotateText.png in Resources */,
+				C9EF27B820DBF51900D9FFFF /* annotatePencil.png in Resources */,
+				C9EF27B420DBF51900D9FFFF /* icomoon.ttf in Resources */,
+				C9EF27CD20DBF51900D9FFFF /* PhotoCropEditorBorder@2x.png in Resources */,
+				C9EF27C020DBF51900D9FFFF /* annotateSave@3x.png in Resources */,
+				C9EF27A920DBF51900D9FFFF /* LaunchScreen.storyboard in Resources */,
 				05D951DA1EBB868F00DC2299 /* Main.storyboard in Resources */,
+				C9EF27BD20DBF51900D9FFFF /* annotateRefresh@3x.png in Resources */,
+				C9EF27C520DBF51900D9FFFF /* annotateShare@2x.png in Resources */,
+				C9EF27B920DBF51900D9FFFF /* annotatePencil@2x.png in Resources */,
+				C9EF27AB20DBF51900D9FFFF /* ColorCollectionViewCell.xib in Resources */,
+				C9EF27C320DBF51900D9FFFF /* annotateSend@3x.png in Resources */,
+				C9EF27B120DBF51900D9FFFF /* EmojiCollectionViewCell.xib in Resources */,
+				C9EF27C920DBF51900D9FFFF /* annotateText@3x.png in Resources */,
+				C9EF27BB20DBF51900D9FFFF /* annotateRefresh.png in Resources */,
+				C9EF27CA20DBF51900D9FFFF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3D2DBB15A3E53BFA967090C1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-editorTest/Pods-editorTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		458F271CFB9EE8418E173988 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-editorTest/Pods-editorTest-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/iOSPhotoEditor/iOSPhotoEditor.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSPhotoEditor.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-editorTest/Pods-editorTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CC7FCE9F05E9FE4EED17C16F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,8 +412,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EF27AD20DBF51900D9FFFF /* CropRectView.swift in Sources */,
+				C9EF27DA20DBF51900D9FFFF /* ResizeControl.swift in Sources */,
+				C9EF27D620DBF51900D9FFFF /* PhotoEditor+UITextView.swift in Sources */,
+				C9EF27DB20DBF51900D9FFFF /* StickerCollectionViewCell.swift in Sources */,
+				C9EF27E020DBF51900D9FFFF /* UIImage+Size.swift in Sources */,
+				C9EF27D520DBF51900D9FFFF /* PhotoEditor+StickersViewController.swift in Sources */,
+				C9EF27B320DBF51900D9FFFF /* GradientView.swift in Sources */,
+				C9EF27D320DBF51900D9FFFF /* PhotoEditor+Gestures.swift in Sources */,
+				C9EF27E120DBF51900D9FFFF /* UIImageView+Alpha.swift in Sources */,
+				C9EF27DF20DBF51900D9FFFF /* UIImage+Crop.swift in Sources */,
+				C9EF27AC20DBF51900D9FFFF /* ColorsCollectionViewDelegate.swift in Sources */,
+				C9EF27D020DBF51900D9FFFF /* PhotoEditor+Crop.swift in Sources */,
+				C9EF27AE20DBF51900D9FFFF /* CropView.swift in Sources */,
+				C9EF27D920DBF51900D9FFFF /* Protocols.swift in Sources */,
+				C9EF27D120DBF51900D9FFFF /* PhotoEditor+Drawing.swift in Sources */,
 				05D951D71EBB868F00DC2299 /* ViewController.swift in Sources */,
+				C9EF27AA20DBF51900D9FFFF /* ColorCollectionViewCell.swift in Sources */,
+				C9EF27D220DBF51900D9FFFF /* PhotoEditor+Font.swift in Sources */,
+				C9EF27AF20DBF51900D9FFFF /* CropViewController.swift in Sources */,
+				C9EF27D720DBF51900D9FFFF /* PhotoEditorViewController.swift in Sources */,
+				C9EF27B020DBF51900D9FFFF /* EmojiCollectionViewCell.swift in Sources */,
+				C9EF27CF20DBF51900D9FFFF /* PhotoEditor+Controls.swift in Sources */,
+				C9EF27B220DBF51900D9FFFF /* EmojisCollectionViewDelegate.swift in Sources */,
+				C9EF27E220DBF51900D9FFFF /* UIView+Image.swift in Sources */,
 				05D951D51EBB868F00DC2299 /* AppDelegate.swift in Sources */,
+				C9EF27DD20DBF51900D9FFFF /* StickersViewController.swift in Sources */,
+				C9EF27D420DBF51900D9FFFF /* PhotoEditor+Keyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +461,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		C9EF276B20DBF51800D9FFFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9EF276C20DBF51800D9FFFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -259,15 +482,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,15 +540,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -347,13 +586,14 @@
 			baseConfigurationReference = F2FE6D2857E80A528393FDF8 /* Pods-editorTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PM5CQGZAJM;
+				DEVELOPMENT_TEAM = 9BSXY77HTN;
 				INFOPLIST_FILE = editorTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamed.editorTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -362,13 +602,14 @@
 			baseConfigurationReference = 9EEB4D5FF7C66761863E5E50 /* Pods-editorTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PM5CQGZAJM;
+				DEVELOPMENT_TEAM = 9BSXY77HTN;
 				INFOPLIST_FILE = editorTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hamed.editorTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

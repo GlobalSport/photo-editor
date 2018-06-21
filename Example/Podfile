@@ -6,6 +6,6 @@ target 'editorTest' do
   use_frameworks!
 
   # Pods for editorTest
-  pod 'iOSPhotoEditor', :path => '/Users/n/photo-editor/'
+  #pod 'iOSPhotoEditor', :git => 'https://github.com/closerminds/photo-editor.git', :branch => 'develop_perso'
 
 end
