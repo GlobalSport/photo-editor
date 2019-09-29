@@ -17,7 +17,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
      UIPanGestureRecognizer - Moving Objects
      Selecting transparent parts of the imageview won't move the object
      */
-    func panGesture(_ recognizer: UIPanGestureRecognizer) {
+    @objc func panGesture(_ recognizer: UIPanGestureRecognizer) {
         if let view = recognizer.view {
             if view is UIImageView {
                 //Tap only on visible parts on the image
@@ -42,9 +42,8 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
     
     /**
      UIPinchGestureRecognizer - Pinching Objects
-     If it's a UITextView will make the font bigger so it doen't look pixlated
-     */
-    func pinchGesture(_ recognizer: UIPinchGestureRecognizer) {
+     If it's a UITextView will make the font bigger so it doen't look pixlated*/
+ @objc func pinchGesture(_ recognizer: UIPinchGestureRecognizer) {
         if let view = recognizer.view {
             if view is UITextView {
                 let textView = view as! UITextView
@@ -75,7 +74,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
     /**
      UIRotationGestureRecognizer - Rotating Objects
      */
-    func rotationGesture(_ recognizer: UIRotationGestureRecognizer) {
+    @objc func rotationGesture(_ recognizer: UIRotationGestureRecognizer) {
         if let view = recognizer.view {
             view.transform = view.transform.rotated(by: recognizer.rotation)
             recognizer.rotation = 0
@@ -87,7 +86,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
      Will make scale scale Effect
      Selecting transparent parts of the imageview won't move the object
      */
-    func tapGesture(_ recognizer: UITapGestureRecognizer) {
+     @objc func tapGesture(_ recognizer: UITapGestureRecognizer) {
         if let view = recognizer.view {
             if view is UIImageView {
                 //Tap only on visible parts on the image
@@ -108,19 +107,19 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
     /*
      Support Multiple Gesture at the same time
      */
-    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+     @objc public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
     
-    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRequireFailureOf otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+     @objc public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRequireFailureOf otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return false
     }
     
-    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+     @objc public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return false
     }
     
-    func screenEdgeSwiped(_ recognizer: UIScreenEdgePanGestureRecognizer) {
+    @objc func screenEdgeSwiped(_ recognizer: UIScreenEdgePanGestureRecognizer) {
         if recognizer.state == .recognized {
             if !stickersVCIsVisible {
                 addStickersViewController()
@@ -137,7 +136,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
      Scale Effect
      */
     func scaleEffect(view: UIView) {
-        view.superview?.bringSubview(toFront: view)
+        view.superview?.bringSubviewToFront(view)
         
         if #available(iOS 10.0, *) {
             let generator = UIImpactFeedbackGenerator(style: .heavy)
@@ -166,7 +165,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
         hideToolbar(hide: true)
         deleteView.isHidden = false
         
-        view.superview?.bringSubview(toFront: view)
+        view.superview?.bringSubviewToFront(view)
         let pointToSuperView = recognizer.location(in: self.view)
 
         view.center = CGPoint(x: view.center.x + recognizer.translation(in: canvasImageView).x,
